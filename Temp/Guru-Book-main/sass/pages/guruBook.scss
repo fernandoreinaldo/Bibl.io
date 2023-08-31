@@ -1,0 +1,43 @@
+.containerAnnounce{
+    width: 100%;
+    max-height: 250px;
+    
+    img{
+        height: 250px;
+        width: 100%;
+    }
+}
+
+.containerRecomendation{
+    width: 100%;
+    max-height: 500px;
+}
+
+.booksRecomendation{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center ;
+    gap: 10px;
+}
+
+.bookRecomendation{
+    width: 200px;
+    height: 280px;
+}
+
+.book{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .img{
+        width: 200px;
+        height: 200px;
+    }
+}
+
+.subtitle{
+    font-size: 10px;
+}

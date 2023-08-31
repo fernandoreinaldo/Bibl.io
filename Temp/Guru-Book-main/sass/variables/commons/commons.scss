@@ -1,0 +1,91 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.contaier-fluid{
+    width: 100%;
+}
+
+.header {
+    background-color: $primaryColor;
+    font-size: 18px;
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+
+    .logoGB {
+        width: 70px;
+    }
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.bodyYellow {
+    background-color: $primaryColor;
+}
+
+.container {
+    width: 450px;
+    height: auto;
+}
+
+.footer {
+    width: 100%;
+    height: auto;
+
+    img {
+        width: 70px;
+    }
+}
+
+.footerUm {
+    width: 100%;
+    height: 50px;
+    background-color: $primaryColor;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerDois {
+    background-color: $secondaryColor;
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footerGuru {
+    display: flex;
+    align-items: center;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+}
+
+.footerTres {
+    width: 100%;
+    height: 150px;
+    padding: 10px 10px 200px 10px;
+    background-color: $primaryColor;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.footerQuatro{
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

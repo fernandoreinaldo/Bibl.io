@@ -1,0 +1,88 @@
+.body{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 50px 0px 50px
+}
+
+.containerBook{
+    width: 100%;
+    display: flex;
+    flex-direction: row;    
+    align-items: center;
+}
+
+.imgBook{
+    width: 350px;
+    height: 350px;
+
+    img{
+        width: auto;
+        height: 350px;
+    }
+}
+
+.avaliations{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: end;
+}
+
+.stars{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bookDetails{
+    width: 100%;
+    height: 350px;
+    background-color: white;
+    padding: 10px;
+    overflow-wrap: break-word;
+    margin-left: 5px;
+}
+
+.authorBook{
+    font-size: 15px;
+}
+
+.plataforms{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    img{
+        margin-left: 10px;
+        width: 30px;
+    }
+}
+
+.subtitleBook{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.bookDescription{
+    width: 100%;
+    height: auto;
+    padding: 0px 10px 0px 10px;
+}
+
+.informations{
+    display: flex;
+    flex: row;
+    justify-content: space-evenly;
+}
+
+.information{
+    width: 170px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
